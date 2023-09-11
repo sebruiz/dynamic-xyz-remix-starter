@@ -1,0 +1,13 @@
+diff --git a/node_modules/@keplr-wallet/provider/build/core.js b/node_modules/@keplr-wallet/provider/build/core.js
+index d4d47fe..db47c74 100644
+--- a/node_modules/@keplr-wallet/provider/build/core.js
++++ b/node_modules/@keplr-wallet/provider/build/core.js
+@@ -19,7 +19,7 @@ const enigma_1 = require("./enigma");
+ const cosmjs_1 = require("./cosmjs");
+ const deepmerge_1 = __importDefault(require("deepmerge"));
+ const long_1 = __importDefault(require("long"));
+-const buffer_1 = require("buffer/");
++const buffer_1 = require("buffer");
+ class Keplr {
+     constructor(version, mode, requester) {
+         this.version = version;

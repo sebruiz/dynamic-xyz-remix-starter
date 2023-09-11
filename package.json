@@ -5,16 +5,20 @@
     "build": "remix build",
     "dev": "remix dev",
     "start": "remix-serve build",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "postinstall": "patch-package"
   },
   "dependencies": {
+    "@dynamic-labs/sdk-react": "^0.18.15",
     "@remix-run/css-bundle": "^1.19.3",
     "@remix-run/node": "^1.19.3",
     "@remix-run/react": "^1.19.3",
     "@remix-run/serve": "^1.19.3",
     "isbot": "^3.6.8",
+    "patch-package": "^8.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "events-polyfill": "npm:events@^3.3.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.19.3",
