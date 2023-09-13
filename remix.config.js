@@ -6,7 +6,7 @@ module.exports = {
   // serverBuildPath: "build/index.js",
   // publicPath: "/build/",
   serverModuleFormat: "cjs",
-  serverDependenciesToBundle: "all",
+  serverDependenciesToBundle: [/^@dynamic-labs.*/, /^@blocto.*/],
   future: {
     v2_dev: true,
     v2_errorBoundary: true,
